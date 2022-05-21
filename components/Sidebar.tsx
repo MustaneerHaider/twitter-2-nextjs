@@ -34,7 +34,7 @@ function Sidebar() {
       />
       <SidebarRow Icon={DotsCircleHorizontalIcon} title="More" />
 
-      <button className="rounded-full bg-twitter px-4 py-2 pt-5 font-bold text-white transition-transform duration-200 ease-out active:scale-125">
+      <button className="mt-5 rounded-full bg-twitter px-4 py-2 font-bold text-white transition-transform duration-200 ease-out active:scale-125">
         Tweet
       </button>
     </div>
