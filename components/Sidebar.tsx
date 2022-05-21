@@ -33,6 +33,10 @@ function Sidebar() {
         title={session ? 'Sign Out' : 'Sign In'}
       />
       <SidebarRow Icon={DotsCircleHorizontalIcon} title="More" />
+
+      <button className="rounded-full bg-twitter px-4 py-2 pt-5 font-bold text-white transition-transform duration-200 ease-out active:scale-125">
+        Tweet
+      </button>
     </div>
   )
 }
